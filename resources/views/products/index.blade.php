@@ -1,11 +1,11 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Products</title>
+    <title>Products Table</title>
 </head>
 <body>
 
-<h1>Products</h1>
+<h1>Products table</h1>
 <a href="{{ route('products.create') }}">Add Product</a>
 
 @if(session('success'))
